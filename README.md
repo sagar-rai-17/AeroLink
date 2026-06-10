@@ -21,22 +21,29 @@ AeroLink lets you send files straight from one browser to another without upload
 * **Core Protocols:** WebRTC (Data Channels, STUN)
 
 ---
-## ⚙️ Local Setup
 
-### 1. Clone the project
-```bash
-git clone [https://github.com/YOUR_USERNAME/P2P-File-Share.git](https://github.com/YOUR_USERNAME/P2P-File-Share.git)
+# Local Setup for P2P File Share
+
+# 1. Clone the project
+git clone https://github.com/YOUR_USERNAME/P2P-File-Share.git
 cd p2p-share
-### 2. Start the Backend Server
-```bash
+
+# 2. Start the Backend Server
+# Run this from the root folder to install dependencies and launch the signaling server
 npm install
 node server.js
-### 3. Start the Frontend App
-```bash
+# Terminal should say: Listening on 3000
+
+# 3. Start the Frontend App
+# Open a second terminal window, move into the UI folder, install packages, and boot up Vite
 cd p2p-ui
 npm install
 npm run dev
-### 4. Test it out
+
+# 4. Test it out
+# Open http://localhost:5173 in a normal browser window
+# Drag and drop a file to generate a Room ID and QR code
+# Open an Incognito Window and browse the link generated from QR code.
 
 ---
 
