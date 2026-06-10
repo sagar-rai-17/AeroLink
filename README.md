@@ -21,23 +21,6 @@ AeroLink lets you send files straight from one browser to another without upload
 * **Core Protocols:** WebRTC (Data Channels, STUN)
 
 ---
-
-## 📂 Folder Structure
-
-```text
-p2p-share/
-├── server.js             # Backend signaling server
-├── package.json          # Backend dependencies
-└── p2p-ui/               # React frontend app
-    ├── src/
-    │   ├── App.jsx       # Core app logic and layout
-    │   ├── index.css     # Tailwind styles
-    │   └── main.jsx      # React loader
-    ├── tailwind.config.js
-    └── package.json
-
----
-
 ## ⚙️ Local Setup
 
 ### 1. Clone the project
@@ -54,3 +37,19 @@ cd p2p-ui
 npm install
 npm run dev
 ### 4. Test it out
+
+---
+
+## 📂 Folder Structure
+
+```text
+p2p-share/
+├── server.js             # Backend signaling server
+├── package.json          # Backend dependencies
+└── p2p-ui/               # React frontend app
+    ├── src/
+    │   ├── App.jsx       # Core app logic and layout
+    │   ├── index.css     # Tailwind styles
+    │   └── main.jsx      # React loader
+    ├── tailwind.config.js
+    └── package.json
