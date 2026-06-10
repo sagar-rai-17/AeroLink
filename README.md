@@ -29,21 +29,21 @@ git clone https://github.com/YOUR_USERNAME/P2P-File-Share.git
 cd p2p-share
 
 # 2. Start the Backend Server
-# Run this from the root folder to install dependencies and launch the signaling server
+Run this from the root folder to install dependencies and launch the signaling server
 npm install
 node server.js
 # Terminal should say: Listening on 3000
 
 # 3. Start the Frontend App
-# Open a second terminal window, move into the UI folder, install packages, and boot up Vite
+Open a second terminal window, move into the UI folder, install packages, and boot up Vite
 cd p2p-ui
 npm install
 npm run dev
 
 # 4. Test it out
-# Open http://localhost:5173 in a normal browser window
-# Drag and drop a file to generate a Room ID and QR code
-# Open an Incognito Window and browse the link generated from QR code.
+Open http://localhost:5173 in a normal browser window
+Drag and drop a file to generate a Room ID and QR code
+Open an Incognito Window and browse the link generated from QR code.
 
 ---
 
